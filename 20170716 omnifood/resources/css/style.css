@@ -259,6 +259,20 @@ header {
     border-bottom: 2px solid #e67e22; 
 }
 
+
+/* Mobile nav*/
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer; /* change the cursor*/
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
+
 /* Sticky nav*/
 .sticky {
     position: fixed; /* always at the same point in respect to scrolling*/
