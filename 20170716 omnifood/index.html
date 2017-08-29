@@ -2,10 +2,13 @@
 <html lang="en">
 
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
         
                
@@ -18,6 +21,7 @@
             <nav>
                 <div class="row">
                     <img src="resources/img/logo-white.png" alt="Omnifood logo" class="logo">
+                    <img src="resources/img/logo.png" alt="Omnifood logo" class="logo-black">
                     
                     <ul class="main-nav">
                         <li><a href="#">Food delivery</a></li>    
@@ -33,18 +37,18 @@
             
             <div class="hero-text-box">
                 <h1>Goodbye junk food. <br>Hello super healthy meals.</h1>
-                <a class="btn btn-full" href="#">I’m hungry</a>
+                <a class="btn btn-full" href="#">I'm hungry</a>
                 <a class="btn btn-ghost" href="#">Show me more</a>
             
             </div>
         
         </header>
         
-        <section class="section-features">
+        <section class="section-features js--section-features">
             <div class="row">
                 <h2>Get food fast &mdash; not fast food</h2>
                 <p class="long-copy">
-                    Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!
+                    Hello, we're Omnifood, your new premium food delivery service. We know you're always busy. No time for cooking. So let us take care of that, we're really good at it, we promise!
                 </p>
             </div>
         
@@ -314,7 +318,7 @@
                         <div>
                             <h3>Premium</h3>
                             <p class="plan-price"> $399 <span>/ month </span></p>
-                            <p class="plan-price-meal"> That’s only 13.30$ per meal</p>
+                            <p class="plan-price-meal"> That's only 13.30$ per meal</p>
                         </div>
                         
                         <div>
@@ -338,7 +342,7 @@
                         <div>
                             <h3>Pro</h3>
                             <p class="plan-price"> 149$ <span>/ month </span></p>
-                            <p class="plan-price-meal"> That’s only 14.90$ per meal</p>
+                            <p class="plan-price-meal"> That's only 14.90$ per meal</p>
                         </div>
                         
                         <div>
@@ -492,7 +496,24 @@
                 </p>
             </div>
         </footer>
-    
+      
+        <!-- Enable Jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- enable responsiveness in older browsers -->
+        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+
+        <!-- enable html5 in older browsers-->
+        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script>
+
+        <!-- enable css3 in olders browsers -->
+        <script src="https://cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+        
+        <!--  trigger a function when you scroll to an element. -->
+        <script src="vendors/js/jquery.waypoints.min.js"></script>
+        
+        <!-- enable script file of resources -->
+        <script src="resources/js/script.js"></script>
     </body>
 
 </html>
