@@ -104,4 +104,22 @@ $(document).ready(function() {
         }
     });
     
+    /*maps*/
+    
+    var map = new GMaps({
+      div: '.map',
+      lat: -22.0396311,
+      lng: -47.9106131
+    });
+    
+    map.addMarker({
+        div: '.map',
+        lat: -22.0396311,
+        lng: -47.9106131,
+        title: 'Andrew Oliveira',
+        infoWindow: {
+            content: '<p> My place </p>'
+        }
+    });
+    
 });
